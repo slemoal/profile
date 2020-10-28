@@ -1,0 +1,84 @@
+/*/ Generic style /*/
+
+body {
+  background-color: #ebecf1;
+  font-family: 'Roboto', sans-serif;
+  color: #1b1c25;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #1b1c25;
+  font-style: strong;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #1b1c25;
+  font-size: 24px;
+  line-height: 16px;
+}
+
+a {
+  color: #1b1c25;
+  font-size: 40px;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: #ffa62b;
+}
+
+.card {
+  background: #ebecf1;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 3%;
+  padding: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*/ Specific style /*/
+
+#profile_picture {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+}
